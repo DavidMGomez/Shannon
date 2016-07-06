@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Buscar" android:icon="@android:drawable/ic_menu_search"></item>
+
+
+
+    <item android:title="Configuracion">
+        <menu>
+            <item android:id="@+id/nav_inisesion"
+                android:title="Iniciar Sesion/Registrarse"
+                />
+        </menu>
+
+    </item>
+
+
+</menu>

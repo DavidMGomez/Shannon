@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:title="Buscar" android:icon="@android:drawable/ic_menu_search"></item>
+
+    <item android:title="Servicios">
+        <menu>
+            <item android:id="@+id/nav_misServicios"
+                android:title="Mis servicios"
+                />
+            <item android:id="@+id/nav_agregarServicio"
+                android:title="Agregar Servicio"
+                />
+            <item android:id="@+id/nav_Reputacion"
+                android:title="Mi Reputacion"/>
+            <item android:id="@+id/nav_Calificacion"
+                android:title="Mi Calificacion"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Configuracion">
+        <menu>
+            <item android:id="@+id/nav_Miperfil"
+                android:title="Mi perfil "
+                />
+            <item android:id="@+id/nav_datosper"
+                android:title="Datos Personales"/>
+            <item android:id="@+id/nav_seguridad"
+                android:title="Seguridad"/>
+            <item android:id="@+id/nav_salir"
+                android:title="salir"
+                />
+        </menu>
+
+    </item>
+
+
+</menu>

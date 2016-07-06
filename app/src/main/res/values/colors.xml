@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#7863ff</color>
+    <color name="colorPrimaryDark">#cf2043</color>
+    <color name="colorPrimary">#ef214a</color>
+    <color name="refresh_progress_1">@color/colorAccent</color>
+    <color name="refresh_progress_2">@color/colorPrimary</color>
+    <color name="refresh_progress_3">@color/colorPrimaryDark</color>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:elevation="0dp">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:weightSum="1"
+        android:id="@+id/relativeLayout"
+        android:background="#ffffff"
+        android:layout_toRightOf="@+id/tvDescripcion"
+        android:layout_toEndOf="@+id/tvDescripcion"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/imgPhoto"
+            android:src="@drawable/logopeque"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:background="#85282828" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTitulo"
+            android:paddingTop="0dp"
+            android:paddingRight="8dp"
+            android:textColor="#ffffff"
+            android:text="Titulo Servicio"
+            android:textSize="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCategoria"
+            android:textColor="#ffffff"
+            android:text="Categoria:"
+            android:visibility="visible"
+            android:layout_gravity="right"
+            android:layout_above="@+id/tvDescripcion"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDescripcion"
+            android:text="Descripcion:"
+            android:textColor="#ffffff"
+            android:visibility="visible"
+            android:textSize="12dp"
+            android:maxLines="3"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="31dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
